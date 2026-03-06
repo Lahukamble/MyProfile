@@ -1,0 +1,114 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f7fa;
+scroll-behavior:smooth;
+}
+
+/* header */
+
+header{
+background:#0A2540;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+margin:10px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#C9A227;
+}
+
+/* hero */
+
+.hero{
+padding:80px;
+text-align:center;
+background:white;
+}
+
+.hero h2{
+color:#0A2540;
+}
+
+button{
+background:#C9A227;
+border:none;
+padding:12px 25px;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:6px;
+}
+
+button:hover{
+background:#a8841f;
+}
+
+/* sections */
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.services{
+background:#eef2f7;
+}
+
+/* cards */
+
+.card-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:8px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:transform 0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* contact */
+
+input, textarea{
+width:80%;
+padding:12px;
+margin:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+footer{
+background:#0A2540;
+color:white;
+padding:20px;
+}
+
+/* reveal animation */
+
+.reveal{
+opacity:0;
+transform:translateY(50px);
+transition:all 0.6s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform:translateY(0);
+}
